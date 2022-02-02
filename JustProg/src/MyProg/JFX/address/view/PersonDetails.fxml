@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyProg.JFX.address.view.PersonDetailController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="356.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../resources/PersonDetails.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="personIcon" fitHeight="100.0" fitWidth="100.0" layoutX="100.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../resources/icon.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="personName" layoutX="124.0" layoutY="114.0" text="Рома" textAlignment="CENTER" textFill="INDIGO">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="personDetails" editable="false" layoutY="156.0" prefHeight="170.0" prefWidth="300.0" style="-fx-text-fill: #4B0082;" text="&#10;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <Label layoutX="96.0" layoutY="337.0" text="Инвентарь" textAlignment="CENTER" textFill="INDIGO">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="bagOne" fitHeight="50.0" fitWidth="50.0" layoutX="14.0" layoutY="372.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../resources/bag.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bagThree" fitHeight="50.0" fitWidth="50.0" layoutX="236.0" layoutY="372.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../resources/bag.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bagTwo" fitHeight="50.0" fitWidth="50.0" layoutX="123.0" layoutY="372.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../resources/bag.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bagFour" fitHeight="50.0" fitWidth="50.0" layoutX="14.0" layoutY="436.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../resources/bag.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bagFive" fitHeight="50.0" fitWidth="50.0" layoutX="123.0" layoutY="436.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../resources/bag.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bagSix" fitHeight="50.0" fitWidth="50.0" layoutX="236.0" layoutY="436.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../resources/bag.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

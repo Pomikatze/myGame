@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyProg.JFX.address.view.ChoiceController">
+   <children>
+      <Label layoutX="43.0" layoutY="38.0" text="Имя перснажа">
+         <font>
+            <Font name="AR ESSENCE" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name" alignment="TOP_CENTER" layoutX="225.0" layoutY="37.0" prefHeight="26.0" prefWidth="326.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <ImageView accessibleRole="BUTTON" fitHeight="79.0" fitWidth="94.0" layoutX="43.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../resources/Warrior.png" />
+         </image>
+      </ImageView>
+      <ImageView accessibleRole="BUTTON" fitHeight="79.0" fitWidth="106.0" layoutX="261.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../resources/Paladin.png" />
+         </image>
+      </ImageView>
+      <ImageView accessibleRole="BUTTON" fitHeight="79.0" fitWidth="79.0" layoutX="463.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../resources/priest.png" />
+         </image>
+      </ImageView>
+      <Separator layoutY="94.0" prefHeight="0.0" prefWidth="600.0" />
+      <TextArea editable="false" layoutX="14.0" layoutY="227.0" prefHeight="165.0" prefWidth="166.0" text="Сила - 30&#10;Броня - 15&#10;Способность - двойной&#10;удар.&#10;Старый воин, некогда&#10;суживший легиону. &#10;Способен наносить&#10;двойной урон по &#10;противнику.">
+         <font>
+            <Font name="AR ESSENCE" size="12.0" />
+         </font>
+      </TextArea>
+      <TextArea editable="false" layoutX="217.0" layoutY="226.0" prefHeight="166.0" prefWidth="166.0" text="Сила - 25&#10;Броня - 20&#10;Способность - вампиризм&#10;Служитель света, который&#10;поклялся уничтожить всю&#10;нечисть. Способен&#10;отбирать у врагов&#10;здоровье&#10;">
+         <font>
+            <Font name="AR ESSENCE" size="12.0" />
+         </font>
+      </TextArea>
+      <TextArea editable="false" layoutX="419.0" layoutY="226.0" prefHeight="166.0" prefWidth="166.0" text="Сила - 20&#10;Броня - 15&#10;Способность - лечение&#10;Его сила не в мече, но в&#10;вере. Способен&#10;восстанавливать своё&#10;здоровье">
+         <font>
+            <Font name="AR ESSENCE" size="12.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="61.0" layoutY="110.0" mnemonicParsing="false" onAction="#handleWar" text="Воин">
+         <font>
+            <Font name="AR ESSENCE" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="268.0" layoutY="110.0" mnemonicParsing="false" onAction="#handlePal" text="Паладин">
+         <font>
+            <Font name="AR ESSENCE" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="478.0" layoutY="110.0" mnemonicParsing="false" onAction="#handlePriest" text="Жрец">
+         <font>
+            <Font name="AR ESSENCE" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

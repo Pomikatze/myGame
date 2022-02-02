@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="454.0" maxWidth="800.0" minHeight="454.0" minWidth="800.0" prefHeight="454.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyProg.JFX.address.view.MainMenuController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../resources/MainMenu.jpg" />
+         </image>
+      </ImageView>
+      <Button contentDisplay="CENTER" graphicTextGap="1.0" layoutX="659.0" layoutY="317.0" mnemonicParsing="false" onAction="#handleNewGame" prefHeight="21.0" prefWidth="130.0" text="New Game" textAlignment="CENTER" textFill="#4c0d63">
+         <font>
+            <Font name="AR ESSENCE" size="18.0" />
+         </font>
+      </Button>
+      <Button contentDisplay="CENTER" graphicTextGap="1.0" layoutX="659.0" layoutY="362.0" mnemonicParsing="false" onAction="#handleLoad" prefHeight="21.0" prefWidth="130.0" text="Load..." textAlignment="CENTER" textFill="#4c0d63">
+         <font>
+            <Font name="AR ESSENCE" size="18.0" />
+         </font>
+      </Button>
+      <Button contentDisplay="CENTER" graphicTextGap="1.0" layoutX="659.0" layoutY="407.0" mnemonicParsing="false" onAction="#handleExit" prefHeight="21.0" prefWidth="130.0" text="Exit" textAlignment="CENTER" textFill="#4c0d63">
+         <font>
+            <Font name="AR ESSENCE" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="182.0" layoutY="3.0" prefHeight="46.0" prefWidth="466.0" text="The World of Magic" textAlignment="CENTER" textFill="#e7ef0e">
+         <font>
+            <Font name="AR ESSENCE" size="64.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="music" layoutX="14.0" layoutY="425.0" mnemonicParsing="false" onAction="#handleMusic" text="Music OFF" textFill="#ffee00">
+         <font>
+            <Font name="AR ESSENCE" size="14.0" />
+         </font>
+      </CheckBox>
+   </children>
+</AnchorPane>
